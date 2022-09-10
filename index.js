@@ -32,8 +32,8 @@ function newSet() {
     getGameRow(goodScore)
 
     //Show New Words in Console **FOR TESTING PURPOSES ONLY**
-    console.log(word1.word)
-    console.log(word2.word)
+    // console.log(word1.word)
+    // console.log(word2.word)
 }
 
 //button functionality

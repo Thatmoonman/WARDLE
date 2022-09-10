@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WARDLE</title>
+        <link rel="stylesheet" type="text/css" href="wardle.css">
+    </head>
+    <body>
+        
+        <div class="menu">
+            <button id="howTo">How to play</button>
+            <button id="sfx">SFX</button>
+            <button id="newGame">New Game</button>
+            <button id="hint">Hint</button>
+        </div>
+
+        <h1 class="title">WARDLE</h1>
+
+        <form class="player" id="testword" autocomplete="off">
+            <input type="text" name="letterone" class="test letter one" maxlength="1">
+            <input type="text" name="lettertwo" class="test letter two" maxlength="1">
+            <input type="text" name="letterthree" class="test letter three" maxlength="1">
+            <input type="text" name="letterfour" class="test letter four" maxlength="1">
+            <input type="text" name="letterfive" class="test letter five" maxlength="1">
+            <button id="submit">Give it a try!</button>
+        </form>
+        <div class="gameboard">
+            <div class="scoreboard">
+                <div class="score"></div>
+            </div>
+            <div class="good">
+                <div class="row one">
+                    <div id="game" class="letter one"></div>
+                    <div id="game" class="letter two"></div>
+                    <div id="game" class="letter three"></div>
+                    <div id="game" class="letter four"></div>
+                    <div id="game" class="letter five"></div>
+                </div>
+                <div class="row two">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row three">
+                    <div id="game" class="letter one"></div>
+                    <div id="game" class="letter two"></div>
+                    <div id="game" class="letter three"></div>
+                    <div id="game" class="letter four"></div>
+                    <div id="game" class="letter five"></div>
+                </div>
+                <div class="row four">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row five">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                </div>
+            <div class="bad">
+                <div class="row one">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row two">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row three">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row four">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+                <div class="row five">
+                    <div class="letter one"></div>
+                    <div class="letter two"></div>
+                    <div class="letter three"></div>
+                    <div class="letter four"></div>
+                    <div class="letter five"></div>
+                </div>
+            </div>
+            <div class="guessed" id="guess"></div>
+        </div>
+
+        <div class="keyboard">
+            <div class="keyrow"><div class="key letter">A</div><div class="key letter">B</div><div class="key letter">C</div><div class="key letter">D</div><div class="key letter">E</div><div class="key letter">F</div><div class="key letter">G</div><div class="key letter">H</div><div class="key letter">I</div></div>
+            <div class="keyrow"><div class="key letter">J</div><div class="key letter">K</div><div class="key letter">L</div><div class="key letter">M</div><div class="key letter">N</div><div class="key letter">O</div><div class="key letter">P</div><div class="key letter">Q</div><div class="key letter">R</div></div>
+            <div class="keyrow"><div class="key letter">S</div><div class="key letter">T</div><div class="key letter">U</div><div class="key letter">V</div><div class="key letter">W</div><div class="key letter">X</div><div class="key letter">Y</div><div class="key letter">Z</div></div>
+        </div>
+        <script type="text/javascript" src="./English-Words-Array-master/words.js"></script>
+        <script type="text/javascript" src="dictionary.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

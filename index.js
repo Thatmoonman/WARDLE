@@ -217,10 +217,10 @@ form.addEventListener('submit', function(event){event.preventDefault();})
 form.addEventListener('submit', wordHandler);
 
 //autofocus
-const autofocus = setInterval(works, 60000)
-function works() {
-    form.children[0].focus()
-}
+// const autofocus = setInterval(works, 60000)
+// function works() {
+//     form.children[0].focus()
+// }
 
 //handle input letters and send them to valid word checker
 function wordHandler() {
